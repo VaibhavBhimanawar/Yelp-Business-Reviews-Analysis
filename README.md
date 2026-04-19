@@ -1,6 +1,8 @@
 # Yelp-Business-Reviews-Analysis
 Link to downlaod the dataset: https://business.yelp.com/data/resources/open-dataset/
+
 Project Flow
+
 Yelp JSON Dataset (5GB)
         ↓
   Python: split into 10 smaller files
