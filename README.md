@@ -25,8 +25,4 @@ Predicted review star ratings (1–5) from review text + metadata using TF-IDF (
 - `sentiment_polarity` was the top predictive feature, validating the original NLP pipeline.
 - Used prediction gaps to flag businesses for review; top-flagged case showed mixed-but-positive reviews (specific complaints + high overall satisfaction) rather than manipulation — a useful finding on the limits of text-only sentiment scoring.
 
-![Confusion Matrix](confusion_matrix.png)
-
-**Files:** `yelp_star_rating_prediction.ipynb` · `yelp_star_predictor_xgb.pkl` · `tfidf_vectorizer.pkl` · `confusion_matrix.png`
-
 **Stack:** Python · scikit-learn · XGBoost · TF-IDF · Pandas
